@@ -98,7 +98,7 @@ Remo773 (2020)
 		
 	menu
 +---------------------------*/
-.......Terminal-Header......
+.......T LAOS......
 +---------------------------*/
 oh-my-zsh users only....
 \033[0m";
@@ -121,7 +121,7 @@ Remo773 (2020)
 
 	menu
 +---------------------------*/
-.......Terminal-Header......
+.......T LAOS......
 +---------------------------*/
 oh-my-zsh users only....
 \033[0m";
@@ -141,12 +141,12 @@ echo ;
 bash ~/T-Header/.banner.sh ${col} ${TNAME}
 echo "";
 #echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
-#echo -e '\033[1;43;30m### SUBSCRIBE MY YOUTUBE CHANNEL ### \033[0m';
+#echo -e '\033[1;43;30m### CREDIT BY LAOS ### \033[0m';
 #echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
 echo "";
 echo -e "
-\033[0;31m┌─[\033[1;34m$TNAME\033[1;33m@\033[1;36mtermux\033[0;31m]─[\033[0;32m~${PWD/#"$HOME"}\033[0;31m]
-\033[0;31m└──╼ \e[1;31m❯\e[1;34m❯\e[1;90m❯\033[0m "
+\033[0;31m┌─[\033[1;34m$TNAME\033[1;33m@\033[1;36m••✦••\033[0;31m]─[\033[0;32m~${PWD/#"$HOME"}\033[0;31m]
+\033[0;31m└──╼ \e[1;31m••\e[1;34m✦\e[1;90m••\033[0m "
 
 tput setaf 3
 read -p  "Do you want to setup this ? (y/n) " PROC32
@@ -175,8 +175,8 @@ TNAME="$PROC"
 setopt prompt_subst
 
 PROMPT=$'
-%{\e[0;31m%}┌─[%{\e[1;34m%}%B%{\${TNAME}%}%{\e[1;33m%}@%{\e[1;36m%}termux%b%{\e[0;31m%}]─[%{\e[0;32m%}%(4~|/%2~|%~)%{\e[0;31m%}]%b
-%{\e[0;31m%}└──╼ %{\e[1;31m%}%B❯%{\e[1;34m%}❯%{\e[1;90m%}❯%{\e[0m%}%b '
+%{\e[0;31m%}┌─[%{\e[1;34m%}%B%{\${TNAME}%}%{\e[1;33m%}@%{\e[1;36m%}••✦••%b%{\e[0;31m%}]─[%{\e[0;32m%}%(4~|/%2~|%~)%{\e[0;31m%}]%b
+%{\e[0;31m%}└──╼ %{\e[1;31m%}%B••%{\e[1;34m%}✦%{\e[1;90m%}••%{\e[0m%}%b '
 
 ## Replace 'ls' with 'exa' (if available) + some aliases.
 if [ -n "\$(command -v exa)" ]; then
@@ -216,10 +216,10 @@ exit
 }
 
 clear;
-echo -e "\033[31m$(figlet -f Remo773 "T- Header")\e[0m"
+echo -e "\033[31m$(figlet -f RENO 13 "T- LAOS")\e[0m"
 echo -e "\e[1;32m
 +----------------------------------*/
-Remo773 : (\e[33m14.4.2021\e[32m)
+RENO 12 : (\e[33m14.4.2021\e[32m)
 
 1. Oh-my-zsh
 2. Zsh-syntax-highlight (\e[33mplugins\e[01;32m)
