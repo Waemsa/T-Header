@@ -138,10 +138,10 @@ TNAME="$PROC";
 col=$(tput cols)
 echo ;
 #figlet -f ASCII-Shadow "$PROC" | lolcat;
-bash ~/T-Header/.banner.sh ${col} ${TNAME}
+bash ~/T-LAOS/.banner.sh ${col} ${TNAME}
 echo "";
 #echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
-#echo -e '\033[1;43;30m### SUBSCRIBE MY YOUTUBE CHANNEL ### \033[0m';
+#echo -e '\033[1;43;30m### CREDIT NY LAOS ### \033[0m';
 #echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
 echo "";
 echo -e "
@@ -175,8 +175,8 @@ TNAME="$PROC"
 setopt prompt_subst
 
 PROMPT=$'
-%{\e[0;31m%}┌─[%{\e[1;34m%}%B%{\${TNAME}%}%{\e[1;33m%}@%{\e[1;36m%}termux%b%{\e[0;31m%}]─[%{\e[0;32m%}%(4~|/%2~|%~)%{\e[0;31m%}]%b
-%{\e[0;31m%}└──╼ %{\e[1;31m%}%B❯%{\e[1;34m%}❯%{\e[1;90m%}❯%{\e[0m%}%b '
+%{\e[0;31m%}┌─[%{\e[1;34m%}%B%{\${TNAME}%}%{\e[1;33m%}@%{\e[1;36m%}─☆─%b%{\e[0;31m%}]─[%{\e[0;32m%}%(4~|/%2~|%~)%{\e[0;31m%}]%b
+%{\e[0;31m%}└──╼ %{\e[1;31m%}%B••%{\e[1;34m%}✦%{\e[1;90m%}••%{\e[0m%}%b '
 
 ## Replace 'ls' with 'exa' (if available) + some aliases.
 if [ -n "\$(command -v exa)" ]; then
